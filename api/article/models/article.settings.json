@@ -67,6 +67,10 @@
     "admin_user": {
       "plugin": "admin",
       "model": "user"
+    },
+    "category": {
+      "model": "category",
+      "via": "articles"
     }
   }
 }
