@@ -16,7 +16,7 @@
     },
     "articles": {
       "via": "category",
-      "collection": "article"
+      "collection": "articles"
     }
   }
 }
