@@ -16,7 +16,7 @@
       "type": "string"
     },
     "Summary": {
-      "type": "string"
+      "type": "text"
     },
     "main_text": {
       "type": "richtext"
