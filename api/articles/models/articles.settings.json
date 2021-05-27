@@ -12,14 +12,17 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
-      "type": "string"
+    "title": {
+      "type": "string",
+      "required": true
     },
-    "Summary": {
-      "type": "text"
+    "summary": {
+      "type": "text",
+      "required": true
     },
-    "main_text": {
-      "type": "richtext"
+    "content": {
+      "type": "richtext",
+      "required": true
     },
     "categories": {
       "collection": "category",
@@ -34,9 +37,7 @@
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
-        "files",
-        "videos"
+        "images"
       ],
       "plugin": "upload",
       "required": false,
