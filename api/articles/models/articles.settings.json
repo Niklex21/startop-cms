@@ -29,8 +29,9 @@
       "via": "articles",
       "dominant": true
     },
-    "admin_user": {
-      "plugin": "admin",
+    "author": {
+      "via": "articles",
+      "plugin": "users-permissions",
       "model": "user"
     },
     "preview_picture": {
