@@ -31,8 +31,7 @@
     },
     "author": {
       "via": "articles",
-      "plugin": "users-permissions",
-      "model": "user"
+      "model": "authors"
     },
     "preview_picture": {
       "model": "file",
